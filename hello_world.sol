@@ -13,7 +13,7 @@ contract HelloWorld {
       emit UpdatedMessages(oldMsg, newMessage);
    }
 
-   function return_message() public view returns(string memory msg){
+   function return_message() public view returns(string memory _message){
      return message;
    }
 }
