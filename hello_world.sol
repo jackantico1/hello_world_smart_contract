@@ -1,8 +1,6 @@
+// SPDX-License-Identifier: MIT
 
 pragma solidity ^0.7.3;
-
-
-
 
 contract HelloWorld {
 
@@ -15,7 +13,7 @@ contract HelloWorld {
       emit UpdatedMessages(oldMsg, newMessage);
    }
 
-   function return_message() public view returns(string msg){
+   function return_message() public view returns(string memory msg){
      return message;
    }
 }
